@@ -1,4 +1,4 @@
-**Apartment Rental Management System**  
+## Apartment Rental Management System
 A web-based platform developed as part of the Distributed Systems course at Harokopio University of Athens. It enables users to browse available apartments, submit and approve new listings, manage rental applications, and enforce role‑based access control (User, Owner, Tenant).
 
 ---
