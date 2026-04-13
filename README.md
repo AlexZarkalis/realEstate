@@ -14,7 +14,7 @@ A web-based platform developed as part of the Distributed Systems course at Haro
 
 ## Technologies Used
 
-- **Java 21+**  
+- **Java 21**  
 - **Spring** — opinionated framework for rapid, production‑ready apps
 - **Thymeleaf** — server‑side Java template engine for HTML views
 - **Spring Data JPA** — ORM for database interactions  
@@ -26,10 +26,10 @@ A web-based platform developed as part of the Distributed Systems course at Haro
 
 ## Prerequisites
 
-- Java 21 or higher  
+- Java 21
 - Maven 3.6+  
-- A relational database (e.g., MySQL, PostgreSQL)
-- Internet access
+- PostgreSQL
+- Maven
 
 ---
 
@@ -38,16 +38,14 @@ A web-based platform developed as part of the Distributed Systems course at Haro
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/AlexZarkalis/real-estate.git
+   cd realEstate
+   
+2. **Configure (see Configuration below)**  
 
-2. **Build the project**  
+
+3. **Run the application**  
    ```bash
-   mvn clean package
-
-3. **Configure (see Configuration below)**  
-
-2. **Run**  
-   ```bash
-   mvn spring-boot:run
+   ./mvnw spring-boot:run
 
 ---
 
